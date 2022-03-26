@@ -5,9 +5,8 @@ header("Access-Control-Allow-Methods: POST");
 
 $user = $_POST['user'];
 $pass = $_POST['pass'];
-$fecha_hora = $_POST['fecha_hora'];
 
-if ($user != "" && $pass != "" && $fecha_hora != "") {
+if ($user != "" && $pass != "") {
     $enlace = mysqli_connect("143.244.172.240", "admin", "Coronavirus19$", "bd_fichas");
 
 
