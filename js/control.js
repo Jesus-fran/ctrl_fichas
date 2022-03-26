@@ -64,7 +64,7 @@ function get_data() {
         type: 'POST',
         dataType: 'json',
         success: function(data) {
-            console.log(data);
+            // console.log(data);
 
 
 
