@@ -60,7 +60,7 @@ function formatDate(date_time) {
 function get_data() {
 
     $.ajax({
-        url: 'https://143.244.172.240:8001/ctrl_fichas/php/consulta_datos.php',
+        url: 'http://143.244.172.240:8001/ctrl_fichas/php/consulta_datos.php',
         type: 'POST',
         dataType: 'json',
         success: function(data) {
